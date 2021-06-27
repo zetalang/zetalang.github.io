@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  height: 10vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-around;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.navlink {
+  transition: all 0.3s;
+  display: flex;
+}
+.link {
+  margin: 10px;
+  cursor: pointer;
+  color: rgb(59, 59, 59);
+}
+.link:hover {
+  color: rgb(0, 0, 0);
+}
+
+.smlinks {
+  display: flex;
+}

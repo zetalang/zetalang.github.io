@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+
+.main {
+  width: 100vw;
+
+  transition: all 0.3s;
+  height: 100vh;
+}
+.landingmain {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  justify-content: space-around;
+}
+.landing {
+  flex-direction: column;
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 10vw;
+  justify-content: center;
+  font-family: "Nunito", sans-serif;
+}
+.bluetext {
+  color: #077fd0;
+}
+
+.bannertxt {
+  font-size: 3em;
+}
+
+.subbannertext {
+  font-size: 1em;
+  margin: 0.25em;
+}
+
+.buttonwhite {
+  margin: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  outline: none;
+  border: 0px;
+  padding: 1em;
+  padding-right: 5em;
+  padding-left: 5em;
+  cursor: pointer;
+  font-weight: bold;
+  color: #696969;
+  box-shadow: 0 4px 14px 0 rgb(0 0 0 / 10%);
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+}
+.buttonwhite:hover {
+  background: #f8f8f8;
+}
+.buttonblue {
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #0070f3;
+  border-radius: 10px;
+  outline: none;
+  border: 0px;
+  padding: 1em;
+  padding-right: 5em;
+  padding-left: 5em;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s;
+  box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
+}
+
+.buttonblue:hover {
+  background-color: #0077ff;
+  box-shadow: 0 4px 14px 0 rgb(0 118 255 / 20%);
+}
+.buttons {
+  display: flex;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.codesnippet {
+  margin-right: 10vw;
+  box-shadow: 1px 13px 38px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 13px 38px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 13px 38px 0px rgba(0, 0, 0, 0.75);
+}
