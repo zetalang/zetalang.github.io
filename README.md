@@ -1,6 +1,6 @@
 # Torq Languages website
 
-### How to run Zeta's website
+### How to run 
 
 ```sh
 > yarn
