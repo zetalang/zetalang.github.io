@@ -23,12 +23,12 @@ export default function Navbar() {
         </Link>
       </div>
       <div className={styles.smlinks}>
-        <Link href="https://github.com/zetacli">
+        <Link href="https://github.com/zetalang">
           <div className={styles.link}>
             <GithubIcon width={"1.5em"} height={"1.5em"} />
           </div>
         </Link>
-        <Link href="https://twitter.com/zetacli">
+        <Link href="https://twitter.com/zetalang">
           <div className={styles.link}>
             <TwitterIcon width={"1.5em"} height={"1.5em"} />
           </div>
