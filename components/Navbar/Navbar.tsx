@@ -9,7 +9,7 @@ export default function Navbar() {
     <nav className={styles.nav}>
       <img src="/logo.svg" width="50em" height="50em"></img>
       <div className={styles.navlink}>
-        <Link href="/docs">
+        <Link href="/zetadocs">
           <div className={styles.link}>Documentation</div>
         </Link>
         <Link href="/community">
