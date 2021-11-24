@@ -1,4 +1,4 @@
-# Torq Languages website
+# Zeta Language's website
 
 ### How to run 
 
